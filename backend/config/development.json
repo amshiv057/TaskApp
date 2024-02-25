@@ -1,0 +1,24 @@
+{
+  "mode": "development",
+  "port": 4000,
+  "hostAddress": "localhost:4000",
+  "databaseHost": "0.0.0.0",
+  "databasePort": "27017",
+  "databaseName": "crud-opreation",
+
+  "swaggerDefinition": {
+    "info": {
+      "title": "Shivam_backend",
+      "version": "1.0",
+      "description": "Shivam_backend - API Docs"
+    },
+    "basePath": "/api/v1",
+    "securityDefinitions": {
+      "tokenauth": {
+        "type": "apiKey",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  }
+}
